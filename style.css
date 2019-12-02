@@ -1,0 +1,30 @@
+html, body {
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    font-family: 'Oswald', sans-serif !important;
+}
+
+a {
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+nav {
+    background-color: rgb(197, 194, 193) !important;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+.marg {
+    margin-top: 10vh;
+}
