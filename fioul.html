@@ -17,71 +17,71 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css" />
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js"></script>
-		<title>Benoit Jalenques Plomberie</title>
+        <title>Benoit Jalenques Plomberie</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 		<!-- <link rel="icon" href="./favicon.ico"> -->
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Benoit Jalenques</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Chauffage
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="fioul.html" uk-scroll>Fioul</a>
-                            <a class="dropdown-item" href="#gaz" uk-scroll>Gaz</a>
-                            <a class="dropdown-item" href="#clim" uk-scroll>Clim</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#solaire" uk-scroll>Panneaux Solaire</a>
-                            <a class="dropdown-item" href="#pac" uk-scroll>Pompe à Chaleur</a>
-                            <a class="dropdown-item" href="#bois" uk-scroll>Bois</a>
-                            <a class="dropdown-item" href="#poele" uk-scroll>Poele à bois</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#sdb" uk-scroll>Sanitaire</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#depannage" uk-scroll>Dépannage</a>
-                      </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#fournisseurs" uk-scroll>Fournisseurs</a>
-                </li>
-                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
-                        Contact
-                      </button>
-                      
-                      <!-- Modal -->
-                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLongTitle">Me contacter</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                              <p>Vous pouvez me contacter en semaine entre 8h et 18h</p>
-                              <p>Mail: <a href="mailto:benoit.jalenques@wanadoo.fr">benoit.jalenques@wanadoo.fr</a></p>
-                              <p>Tel fixe: 04 75 65 24 38</p>
-                              <p>Tel port: 06 74 50 25 07</p>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-              </ul>
-            </div>
-          </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">Benoit Jalenques</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Chauffage
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="fioul.html">Fioul</a>
+                                    <a class="dropdown-item" href="#gaz" uk-scroll>Gaz</a>
+                                    <a class="dropdown-item" href="#clim" uk-scroll>Clim</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#solaire" uk-scroll>Panneaux Solaire</a>
+                                    <a class="dropdown-item" href="#pac" uk-scroll>Pompe à Chaleur</a>
+                                    <a class="dropdown-item" href="#bois" uk-scroll>Bois</a>
+                                    <a class="dropdown-item" href="#poele" uk-scroll>Poele à bois</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#sdb" uk-scroll>Sanitaire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#depannage" uk-scroll>Dépannage</a>
+                              </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fournisseurs" uk-scroll>Fournisseurs</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" data-toggle="modal" href="#exampleModalCenter" uk-scroll>Contact</a>
+                        </li>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Me contacter</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>Vous pouvez me contacter en semaine entre 8h et 18h</p>
+                                      <p>Mail: <a href="mailto:benoit.jalenques@wanadoo.fr">benoit.jalenques@wanadoo.fr</a></p>
+                                      <p>Tel fixe: 04 75 65 24 38</p>
+                                      <p>Tel port: 06 74 50 25 07</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                      </ul>
+                    </div>
+                  </nav>
           <div class="marg"></div>
           <div id="fioul" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
             <div class="uk-card-media-left uk-cover-container">
@@ -98,13 +98,24 @@
         <hr class="uk-divider-icon">
         <div style="margin-top: 3vh;margin-bottom: 3vh;"></div>
         <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
+                <div>
+                        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle">
+                                <a class="nav-link" data-toggle="modal" href="#modal-center" uk-scroll>
+                                    <img src="image/pac.jpeg">
+                                </a>
+                        </div>
+                        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px">Description de l'image</div>
+                    </div>
             <div>
-                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle">
-                    <img src="image/pac.jpeg">
-                </div>
-                <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px">Description de l'image</div>
-            </div>
-            <div>
+                    <div id="modal-center" class="uk-flex-top" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                        
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                        
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                            </div>
+                        </div>
                 <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle">
                     <img src="image/cold.jpg">
                 </div>
@@ -142,3 +153,7 @@
             </div>
         </div>
     </body>
+    <footer style="font-size: 0.75vh;margin-top: 3vh;">
+        <hr>
+        <p>Made by <a href="https://mjalenqu.github.io/web_cv/" target="_blank">Martin Jalenques</a> to Benoit Jalenques Plomberie ©2019</p>
+    </footer>
