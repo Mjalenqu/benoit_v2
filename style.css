@@ -4,6 +4,12 @@ html, body {
     /* background-size: cover; */
     /* background-position: center; */
     font-family: 'Oswald', sans-serif !important;
+    text-align: center;
+}
+
+body {
+    min-height: 100% !important;
+    min-width: 100% !important;
 }
 
 a {
@@ -22,6 +28,7 @@ nav {
 
 
 footer {
+    width: 100%;
     text-align: center;
 }
 
